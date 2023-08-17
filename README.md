@@ -1,6 +1,6 @@
 # CardTrader
 
-This project was developed independently with two group members during our time in CS400 - Programming III at UW-Madison. Our original project proposal is contained in `proposal.pdf`. 
+This project was developed independently with two group members during our time in CS400 - Programming III at UW-Madison. Our original project proposal is contained in `proposal.pdf`. My group was the blue team (it should be noted that blue team should have been a group of 4, but a member of our group dropped the class before this project).
 
 In this project, our group aimed to build a simple Trading Card storage service which could take in arbitrary information about a "trading card", as well as load information from files. It should be noted that a requirement of this project (dictated by course staff) was that we utilized a Red-Black Tree data structure for its efficiency in insertion/lookup operations. Here is a brief description of the application, taken from the proposal:
 
