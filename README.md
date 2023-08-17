@@ -34,7 +34,7 @@ To load a file into the CardTrader storage system, press [L] and follow prompts 
 | Name1 | 100.0 |
 | Name2 | 200.75|
 
-* Note that the VALUE column can only contain ints, due to the code computing statistics based on these values when the user presses [P].
+* Note that the VALUE column can only contain ints, due to the code computing statistics based on these values when the user presses [P] or [G].
 
 # Testing
 As a requirement of the project, our group ran extensive testing on the application to ensure it's functionality and the proper implementation of a RBT. All tests are written with Junit5; the `.jar` is included in this repo for convenience. Included in this repository are the tests we ran on each of our role's code, which can be ran by running:
