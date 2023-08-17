@@ -62,9 +62,13 @@ public class CardFD implements FDInterface {
 				try {
 				    double doubleInsertValue = Double.parseDouble(insertValue);
 				    insertSingleData(insertID, doubleInsertValue);
+				    hr();
 				    System.out.println("Successfully inserted the specified TradingCard.");
+				    hr();
 				} catch (NumberFormatException e) {
+					hr();
 				    System.out.println("The entered value cannot be parsed as a value for this TradingCard. Please try again.");
+				    hr();
 				}
 				break;
 			// case "R": // remove a single card and return value of removed card
@@ -92,6 +96,7 @@ public class CardFD implements FDInterface {
 				// make sure the inserted value can be a double
 				try {
 					double doubleMinThreshold = Double.parseDouble(minThreshold);
+					hr();
 					System.out.println("Accessing all TradingCard values above this value...");
 
 					TradingCard[] sorted = getCardsAboveValue(doubleMinThreshold);
@@ -107,6 +112,7 @@ public class CardFD implements FDInterface {
 						output += sorted[i].toString();
 					}
 					System.out.println(output);
+					hr();
 				} catch (NumberFormatException e) {
 				    System.out.println("The entered value cannot be parsed as a value for this TradingCard. Please try again.");
 				}
@@ -211,11 +217,13 @@ public class CardFD implements FDInterface {
  @Override
 	public void displaySummary() {
 		try{
+		hr();
 		System.out.println("Summary statistics for this dataset:");
 		System.out.println("Highest TradingCard value: " + Double.toString(backend.getHigh().getValue()));
 		System.out.println("Lowest TradingCard value: " + Double.toString(backend.getLow().getValue()));
 		System.out.println("Average TradingCard value: " + Double.toString(backend.getMean()));
 		System.out.println("Range of TradingCard values: " + Double.toString(backend.getRange()));
+		hr();
 		}catch(Exception e)
 		{
 			System.out.println("Please make sure there are TradingCards in your App.");
