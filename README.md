@@ -2,7 +2,7 @@
 
 This project was developed independently with two group members during our time in CS400 - Programming III at UW-Madison. Our original project proposal is contained in `proposal.pdf`. In the proposal, our group was blue team (it should be noted that blue team should have been a group of four, but a member of our group dropped the class before this project, leaving us with three members).
 
-This was the team that worked on this project:
+The team (and roles they assumed) that worked on this project:
 
 * DataWrangler: Dhruv Arora
 * AlgorithmEngineer: ----
